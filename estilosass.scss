@@ -1,0 +1,174 @@
+
+$--main-background-color: rgb(0, 0, 0);
+$--main-background-color2: rgb(3, 4, 46);
+$--main-color: bisque;
+$--main-color2: beige;
+$--main-color3: antiquewhite;
+$--main-colorfont: dimgray;
+
+
+
+
+
+body
+{ margin: 0;
+	padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header
+{
+background-color: $--main-background-color;
+color: $--main-color;
+text-align: center;
+padding: 10px;
+height: 20%;
+
+}
+
+.menu
+{ background-color: $--main-background-color;
+    justify-content: center;
+    display: flex;
+    justify-content: right;
+}
+
+nav
+{
+    height: 10%;
+    background-color: $--main-background-color;
+}
+
+nav ul
+{
+    list-style: none;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    background-color: $--main-background-color;
+}
+
+nav li
+{
+    margin: 20 16px;
+    
+}
+
+
+nav a
+{
+    text-decoration:none;
+    color: $--main-color;
+    background-color: $--main-background-color;
+}
+
+main
+{ background-color: $--main-background-color;
+    color: $--main-color;
+    /*height: 90%;*/
+    min-height: 60% ;
+    /*min 70% informo el valos menor del contenedor*/
+    padding-top: 40;
+    padding-left: 40;
+    padding-right: 40;
+    /*----flexbox - Contenedor----*/
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;  /*se acomo dan hacia abajo*/
+}
+ .tarjeta
+ 
+ { width: 500 px;
+    color: $--main-color2;
+    padding-left: 40;
+    padding-right: 40;
+    box-shadow:  10px 12px 15px  rgba(22, 1, 1, 0.182);
+    text-align: center;
+    }
+.p
+{font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: $--main-color3;
+}
+
+h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $--main-colorfont;
+}
+
+h6
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $--main-colorfont;
+}
+
+footer
+{   
+    color: $--main-color3;
+    background-color: $--main-background-color;
+    text-decoration:none;
+    padding: 10px; ;
+    
+}
+
+    
+    /*ajustes*/    
+    
+    
+   @media (max-width: 480px)  
+   
+   {
+    main
+{ background-color: $--main-background-color2;
+    color: $--main-color;
+    /*height: 90%;*/
+    min-height: 60% ;
+    /*min 70% informo el valos menor del contenedor*/
+    padding-top: 40;
+    /*----flexbox - Contenedor----*/
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;  /*se acomo dan hacia abajo*/
+}
+
+
+h2
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $--main-color;
+}
+
+h6
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: $--main-color;
+}
+
+
+
+   }
+    
+    
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
